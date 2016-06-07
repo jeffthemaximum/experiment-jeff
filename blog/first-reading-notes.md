@@ -1,0 +1,184 @@
+# Jeff's reading of the Blog. Questions, suggestions, otherses.
+
+### Questions
+- What happened to Kate's context app? https://xclassifiedxexperimentsx.tumblr.com/post/130357966982/kates-project-context-app
+- What happened to sergey?
+- What does this mean --> "we made the decision to stop manually driving projects and it’s resulted in a large drop off in projects launched." - https://xclassifiedxexperimentsx.tumblr.com/post/130629842272/october-update
+- Does this content still exist? --> I’ve already started documenting the human help I would give someone if I were to walk them through project create on the phone here: https://experiment.helpjuice.com/13290-Creating-A-Project ... https://xclassifiedxexperimentsx.tumblr.com/post/130672106937/automating-the-funnel-starting-at-the-top
+- At what point does researcher write results?
+    - https://experiment.com/projects/how-does-a-parasite-create-zombie-like-behavior/results
+
+- I'm still a little unclear on the emoji rating system in admin's project/review pages. What do these actually get used for?
+    - https://xclassifiedxexperimentsx.tumblr.com/post/132434474427/a-more-accurate-metric-for-leads
+
+- Did this ever get fixed?
+    - In-page login for comment walls. This is super important! Right now, trying to comment anywhere redirects you off page, to a blank registration page w/o context, and then you don’t always get redirected back to the original page you were looking at. 
+    - https://xclassifiedxexperimentsx.tumblr.com/post/134160310007/more-comments-more-discussion-more-relevance
+
+- Do researchers have an easy interface for creating journal articles? I'm confident they can do this themselves if they had a good interface and good examples. 
+    - https://xclassifiedxexperimentsx.tumblr.com/post/134310590512/how-to-make-results
+
+- Do experiment gift cards still exist?
+
+- What's the status of this wishlist?
+    - described here: https://xclassifiedxexperimentsx.tumblr.com/post/139371962147/the-evolution-of-grants
+    - github link to actual doc here: https://github.com/experiment/experiment-comm/issues/1067
+
+- Current challenge grant page seems outdated. For example, Fish grant says, "On May 3, 2016, the project with the most backers will receive a $1,500 grant." and it listed a current grant.
+    - https://experiment.com/grants
+
+- What's experiment's RFP process? Form? Email?
+    - https://xclassifiedxexperimentsx.tumblr.com/post/139410964267/zika-grants
+
+- What's the status of the project wizard? Is this still a thing?
+    - https://xclassifiedxexperimentsx.tumblr.com/post/139434118307/medium-stand-up
+
+- What's the engineering that went in to this?
+    - https://xclassifiedxexperimentsx.tumblr.com/post/141610967567/shadowban
+
+- Grant's are monitored for cheating. How?
+    - "Only ongoing things are to monitor payments for cheating and help Daniel with any technical requests he may be getting (check #grants channel)."
+    - https://xclassifiedxexperimentsx.tumblr.com/post/142177391612/grants-handoff
+
+- Where did these 5 whys come from? Do Experiment engineers use this process frequent to learn from bugs?
+    - https://xclassifiedxexperimentsx.tumblr.com/post/143082486792/new-pledge-form
+
+- Tiers and rewards... I understand this goes against the mission "all proceeds go to science". But, the potential for this to help growth is big. What's the current thinking here?
+    - I see this: "That said, there can be something very meaningful in a tangible unique artifact, or an experience of collaborating. If we can find ways to do this without selling short the science, then I’m for trying it out." from https://xclassifiedxexperimentsx.tumblr.com/post/144097701167/responding-to-kates-profitability-post
+    - https://xclassifiedxexperimentsx.tumblr.com/post/143826174732/profitability
+
+- Do these happen? Are these the Friday events? "If you’re in NYC, come to one of our weekly happy hours!"
+    - https://xclassifiedxexperimentsx.tumblr.com/post/143950342592/experiment-may-update
+
+- Newsletter. How is this made? Can I sit with someone and see them do it?
+    - https://experiment.com/admin/newsletters
+
+
+
+### Suggestions
+- Make 'JELLY' more public.
+    - This is everything:
+    - "There is a special feeling we pursue, which we call ‘jelly’. Jelly is the fuzzy-stomach feeling that happens when science connects two different people. Sometimes it happens in really great lab notes, sometimes it’s when you’re standing on a hill with a pick-axe realizing you’ve helped to dig up a dinosaur. It does happen currently on Experiment, but in isolated pockets and for various reasons. This feeling that we package, make possible, and hand-deliver is the basis of the value-exchange. Fund science, get jelly. I believe there are people who want jelly."
+    - https://xclassifiedxexperimentsx.tumblr.com/post/130917999142/results-pt-2 
+- Reddit AMA, Results, Stretch Goals
+    - Explain better, make easier for researchers
+    - https://xclassifiedxexperimentsx.tumblr.com/post/131633918552/meeting-with-laura-larocca
+- Journal. This is also everything --> https://xclassifiedxexperimentsx.tumblr.com/post/132258225517/journal-launch-post
+
+- Results. This needs to happen. I went to this one looking for results and found nothing. Where are they? Journal? Lab Notes?
+    - https://experiment.com/projects/the-gmo-corn-experiment/labnotes
+
+- Some projects fail, some succeed. Why? This 'why' should be documented
+    - https://xclassifiedxexperimentsx.tumblr.com/post/133563119097/how-did-the-october-projects-do
+    - More: "Looking back on my observations from the first day, it was easy to predict that Lindsey would get funded no matter what." From: https://xclassifiedxexperimentsx.tumblr.com/post/139371962147/the-evolution-of-grants
+
+- Payouts. This shouldn't be a problem. Why are we ever doing it manually through Stripe? Every edge case should be documented, and there should be code/interfaces documented that allow community or engineers to correct any issues.
+    - https://xclassifiedxexperimentsx.tumblr.com/post/133957635022/payouts
+
+- Where are we now in the life cycle of JOURNAL?
+    - https://xclassifiedxexperimentsx.tumblr.com/post/134825314792/journal-issue-2-why-are-we-making-results
+
+- If this didn't happen, it needs to. Call to action on every page:
+    - https://xclassifiedxexperimentsx.tumblr.com/post/134831157502/a-plan-to-increase-monthly-organic-projects-from
+
+- What's the status of our heroku dyno situation? Why does memory creep up over course of day?
+    - https://xclassifiedxexperimentsx.tumblr.com/post/134932365377/looking-into-our-heroku-dyno-setup
+
+- Artificial deadlines are definitely a good way to go. This works wonders with kids and classrooms, and what works for kids, works for anyone. This is how you get more people to follow through on creating projects
+    - "We know how to get scientists to start with artificial deadlines. Last week we incorporated a new artificial deadline combined with a grant for $2,000. For me, calls have never been easier."
+    - https://xclassifiedxexperimentsx.tumblr.com/post/136802229712/i-think-this-could-work
+
+- We should pickup someone in education for a grants search, just like what happened with Jason
+    - https://xclassifiedxexperimentsx.tumblr.com/post/136802229712/i-think-this-could-work
+
+- Crowd funded and crowd enabled grants
+    - "The other way to think about this is if we halved the cost of running a grant from $2000 to $668, then we’d be at break even. Can we get $668 of costs per grant cycle? I think so, if we enabled crowdfunded and crowdsupported grant making."
+    - https://xclassifiedxexperimentsx.tumblr.com/post/140310927002/grants-unit-economics
+
+
+
+### Valuable to learn from
+- Endorsements - the engineering of this seems like a good way to get a handle on the scope of how Rails works with experiment. Try to learn the flow of this
+    - https://xclassifiedxexperimentsx.tumblr.com/post/132958639262/what-it-means-for-endorsements-to-be-done
+
+- Page views engineering. This seems cool. Look into it more and take notes on what you've learned:
+    - https://xclassifiedxexperimentsx.tumblr.com/post/133144408382/new-local-metrics
+
+### FAQ's and A's
+- What's the purpose of the journal?
+    - "The whole thing should focus on new and unique knowledge, made possible by this project."
+    - "Teach the reader something new and interesting!!!!"
+    - https://xclassifiedxexperimentsx.tumblr.com/post/134310590512/how-to-make-results
+
+- What emails does experiment send? When?
+    - https://experiment.com/admin/emails/project-lifecycle
+    - https://xclassifiedxexperimentsx.tumblr.com/post/134808642902/knowing-our-emails
+
+
+### Otherses
+- Why endorsements?
+    - Cindy: "Having endorsements as part of the product is beneficial to our team because it requires the researcher to get at least 2 more qualified scientists to review their project and gets the scientist to share the project with at least two people outside of our team. These endorsers could potentially be some sort of ‘spirit animal’. They don’t generally know too much about the crowdfunding process but they can provide feedback on whether or not the project is clear and concise. They also provide feedback on whether or not the science is sound." - https://xclassifiedxexperimentsx.tumblr.com/post/130623603632/turning-our-humans-into-computers
+- Why do backers back?
+    - "unless the end product is very very good, most backers prefer knowing that they’ve: 1) helped make something on a topic they care about, or 2) the thing they’ve helped fund has been picked up and published by a big publication. Most of the time, people don’t care that much about the end product, and would rather feel good about themselves."
+    - https://xclassifiedxexperimentsx.tumblr.com/post/130842701502/email-with-dmitri-of-beacon-crowdfunded
+- What is the user experience (aka 'project funnel')
+    - project ideation –> project create –> project review –> project launch –> project campaigning –> project payout –> project lab notes –> project results.
+    - https://xclassifiedxexperimentsx.tumblr.com/post/130623603632/turning-our-humans-into-computers
+- What determines if content gets shared?
+    - What determines that are good writing, popular sharers, and cultural relevance.
+    - https://xclassifiedxexperimentsx.tumblr.com/post/130847128922/results
+- Where did 'results' come from?
+    - https://xclassifiedxexperimentsx.tumblr.com/post/130847128922/results
+    
+- What's been done historically to try to increase project signups?
+    - https://xclassifiedxexperimentsx.tumblr.com/post/134968557622/thinking-about-how-to-grow-of-projects
+
+- How to do Experiment experiments, and how to do Web scraping:
+    - https://xclassifiedxexperimentsx.tumblr.com/post/135792692302/how-to-test-an-assumption-find-people-to-test
+
+- How to send a mass email, track it, and not get bounced:
+    - https://xclassifiedxexperimentsx.tumblr.com/post/136126412092/advice-from-persistiq-founder
+
+- What has been attempted with Results? What worked and didn't?
+    - https://xclassifiedxexperimentsx.tumblr.com/post/136264348527/results-attempt-wrap-up
+
+- What's a workflow and realistic timeline for launching a grant?
+    - "We can feasibly get grants launched in 3-4 weeks now. Week 1 is scraping, contacting, and fielding calls. Start of week 2 is first draft submissions, end of week 2 is final draft. Spend week 3 doing campaign prep. Launch at end of week 3."
+    - https://xclassifiedxexperimentsx.tumblr.com/post/138115400997/grants-v12-entomology
+    - https://xclassifiedxexperimentsx.tumblr.com/post/139614162917/setting-up-a-grants-challenge-overview
+
+- Where can I learn about how to work on Money on the Experiment site?
+    - https://xclassifiedxexperimentsx.tumblr.com/post/138304605542/money-money-money
+
+- Community has two competing focuses: 
+    - 1. project review and project acquisition
+    - 2. project success
+    - https://xclassifiedxexperimentsx.tumblr.com/post/140764114437/moving-downstream
+
+- How do I add social sharing to a page as an engineer?
+    - https://xclassifiedxexperimentsx.tumblr.com/post/142759147202/social-sharing
+
+# Potential Jeff projects
+- How can I help automate the community workflow?
+    - https://xclassifiedxexperimentsx.tumblr.com/post/133149827802/prod-campaign
+
+- What are some pending improvements to the site?
+    - https://xclassifiedxexperimentsx.tumblr.com/post/140764114437/moving-downstream
+
+- The whole product lifecycle, potential places for improvement
+    - https://xclassifiedxexperimentsx.tumblr.com/post/142254193752/product-lifecycle
+
+- How to convert people from "starting a project" to actually launching a project? Project wizard? Other ideas here: 
+    - https://xclassifiedxexperimentsx.tumblr.com/post/144110956452/new-project-intro
+
+- Denny made a list of a bunch of things to work on: 
+    - https://github.com/experiment/roadmap/wiki
+
+- In "outreach" on "dashboard" page, what's the "Journalist scraping tool"? Does it work? It's very unclear:
+    - https://experiment.com/projects/dicty-world-race-finding-the-fastest-and-smartest-dicty-cells/outreach
+
+
+
+
+# Ruby/Rails questions
+- What's the double colon? `Payout::Types::FUNDS`
